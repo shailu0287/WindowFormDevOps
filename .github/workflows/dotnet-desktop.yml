@@ -13,7 +13,7 @@ jobs:
 
 
 
-    runs-on: windows-latest 
+    runs-on: self-hosted 
     env:
       Solution_Name: WindowFormDevOps/WindowFormDevOps.sln                       # Replace with your solution name, i.e. MyWpfApp.sln.
       Test_Project_Path: WindowFormDevOps/WindowFormDevOps/WindowFormDevOps.csproj            
